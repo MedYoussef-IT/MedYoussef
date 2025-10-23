@@ -28,6 +28,15 @@ const projectsData = {
     githubLink: "https://github.com/MedYoussef-IT",
     image: "https://ma7leek.com/wp-content/uploads/2025/10/CAB08BB2-3CD7-40B3-99F9-0BCC6C04F9BD-removebg-preview-e1760100710209.png"
   },
+  2: {
+    title: "Next Project Coming Soon",
+    tags: ["Stay Tuned"],
+    overview: "Exciting new projects are in development — stay tuned for more updates!",
+    features: ["Coming Soon"],
+    technologies: ["Stay Tuned"],
+    liveLink: "#",
+    githubLink: "https://github.com/MedYoussef-IT",
+  },
 };
 
 function openModal(projectId) {
