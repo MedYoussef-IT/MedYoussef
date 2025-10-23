@@ -1,12 +1,32 @@
 const projectsData = {
   1: {
-    title: "Coming Soon",
-    tags: ["Coming Soon", "2025"],
-    overview: "Exciting projects are on the way. Stay tuned for updates.",
-    features: ["Coming Soon"],
-    technologies: ["Coming Soon"],
-    liveLink: "#",
+    title: "Ma7leek",
+    tags: ["E-commerce", "Clothing Brand"],
+    overview: `
+      Ma7leek is a fully functional e-commerce clothing platform designed to offer a seamless and rewarding shopping experience. 
+      It includes advanced features such as user account management, product customization through an integrated designer tool, 
+      a loyalty and rewards system, and dynamic discount handling. Built for both style and scalability, Ma7leek blends elegant design 
+      with efficient backend architecture to deliver performance and usability.
+    `,
+    features: [
+      "User account creation and profile management",
+      "Loyalty and reward points system",
+      "Dynamic product catalog with inventory control",
+      "Integrated product designer for personalization",
+      "Custom discount and coupon logic",
+      "Fully responsive and mobile-friendly design",
+      "Optimized checkout and payment workflow"
+    ],
+    technologies: [
+      "HTML5",
+      "CSS3",
+      "PHP",
+      "Wordpress",
+      "WooCommerce"
+    ],
+    liveLink: "https://ma7leek.com",
     githubLink: "https://github.com/MedYoussef-IT",
+    image: "https://ma7leek.com/wp-content/uploads/2025/10/CAB08BB2-3CD7-40B3-99F9-0BCC6C04F9BD-removebg-preview-e1760100710209.png"
   },
 };
 
