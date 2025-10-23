@@ -689,3 +689,11 @@ section {
     grid-template-columns: 1fr;
   }
 }
+.project-image img {
+  transition: transform 0.4s ease, filter 0.3s ease;
+}
+
+.project-card:hover img {
+  transform: scale(1.05);
+  filter: brightness(1.1);
+}
