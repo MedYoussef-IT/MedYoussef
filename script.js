@@ -15,27 +15,27 @@ const projectsData = {
       "Integrated product designer for personalization",
       "Custom discount and coupon logic",
       "Fully responsive and mobile-friendly design",
-      "Optimized checkout and payment workflow"
+      "Optimized checkout and payment workflow",
     ],
-    technologies: [
-      "HTML5",
-      "CSS3",
-      "PHP",
-      "Wordpress",
-      "WooCommerce"
-    ],
+    technologies: ["HTML5", "CSS3", "PHP", "Wordpress", "WooCommerce"],
     liveLink: "https://ma7leek.com",
-    githubLink: "https://github.com/MedYoussef-IT",
-    image: "https://ma7leek.com/wp-content/uploads/2025/10/CAB08BB2-3CD7-40B3-99F9-0BCC6C04F9BD-removebg-preview-e1760100710209.png"
+    githubLink: "",
+    primaryEnabled: true,
+    secondaryEnabled: false,
+    image:
+      "https://ma7leek.com/wp-content/uploads/2025/10/CAB08BB2-3CD7-40B3-99F9-0BCC6C04F9BD-removebg-preview-e1760100710209.png",
   },
   2: {
     title: "Next Project Coming Soon",
     tags: ["Stay Tuned"],
-    overview: "Exciting new projects are in development — stay tuned for more updates!",
+    overview:
+      "Exciting new projects are in development — stay tuned for more updates!",
     features: ["Coming Soon"],
     technologies: ["Stay Tuned"],
-    liveLink: "#",
+    liveLink: "",
     githubLink: "https://github.com/MedYoussef-IT",
+    primaryEnabled: false,
+    secondaryEnabled: false,
   },
 };
 
@@ -45,8 +45,12 @@ function openModal(projectId) {
 
   document.getElementById("modalTitle").textContent = project.title;
   document.getElementById("modalOverview").textContent = project.overview;
-  document.getElementById("modalLiveLink").href = project.liveLink;
-  document.getElementById("modalGithubLink").href = project.githubLink;
+  project.primaryEnabled
+    ? (document.getElementById("modalLiveLink").href = project.liveLink)
+    : (document.getElementById("modalLiveLink").style.display = "none");
+  project.secondaryEnabled
+    ? (document.getElementById("modalGithubLink").href = project.githubLink)
+    : (document.getElementById("modalGithubLink").style.display = "none");
 
   document.getElementById("modalTags").innerHTML = project.tags
     .map((tag) => `<span class="modal-tag">${tag}</span>`)
@@ -87,7 +91,6 @@ document.addEventListener("keydown", function (e) {
 
 document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
   anchor.addEventListener("click", function (e) {
-    e.preventDefault();
     const target = document.querySelector(this.getAttribute("href"));
     if (target) {
       target.scrollIntoView({ behavior: "smooth", block: "start" });
