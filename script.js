@@ -273,7 +273,7 @@ Object.keys(projectsData).forEach((key) => {
     <div class="project-content">
       <h3 class="project-title">${project.title}</h3>
       <p class="project-desc">
-        ${project.overview.slice(0, 140)}${project.overview.length > 140 ? "..." : ""}
+        ${project.overview}
       </p>
     </div>
   `;
