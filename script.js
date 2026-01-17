@@ -4,7 +4,7 @@ const projectsData = {
     launch: "OCT / 2023",
     tags: ["Android App", "Sports", "Training"],
     overview:
-      "SoccerTraining is a mobile application designed to help football players improve their skills through structured video training...",
+      "SoccerTraining is a mobile application designed to help football players improve their skills through structured video training. The app offers categorized training sessions such as passing, shooting, dribbling, and fitness. All content is organized using a custom-built JSON database containing video titles and YouTube links, making navigation fast and intuitive.",
     features: [
       "Multiple football training categories",
       "Video-based learning using YouTube integration",
@@ -25,7 +25,7 @@ const projectsData = {
     launch: "DEC / 2023",
     tags: ["Android App", "Islamic App"],
     overview:
-      "NuHub is an Islamic mobile application created to support Muslims in their daily religious practices...",
+      "NuHub is an Islamic mobile application created to support Muslims in their daily religious practices. The app provides prayer times using free APIs, step-by-step guidance on how to pray, and access to the Quran and Hadith both online and offline. It also includes Tafsir, a Tasbih counter, and a Hijri calendar, all built with a focus on accessibility and usability.",
     features: [
       "Accurate prayer times using free APIs",
       "Offline Quran and Hadith access",
@@ -47,7 +47,7 @@ const projectsData = {
     launch: "APR / 2024",
     tags: ["Android App", "Charity", "Awareness"],
     overview:
-      "PSDonation is a mobile application created to raise awareness and support donations for Palestinians...",
+      "PSDonation is a mobile application created to raise awareness and support donations for Palestinians. The app includes historical information about Palestine, an interactive real map, and a curated list of verified donation links, both free and paid. The goal was to combine education with practical ways to help.",
     features: [
       "History of Palestine",
       "Interactive real map",
@@ -67,7 +67,7 @@ const projectsData = {
     title: "Agenda-employees",
     launch: "AUG / 2024",
     tags: ["Web App", "Management System"],
-    overview: "Agenda-employees is a complete employee management system...",
+    overview: "Agenda-employees is a complete employee management system that allows administrators to organize employee schedules, manage personal information, and update records easily. The project focuses on CRUD operations and practical real-world management needs using a simple and effective web interface.",
     features: [
       "Employee agenda management",
       "Add, remove, and update employee information",
@@ -86,7 +86,7 @@ const projectsData = {
     title: "Restaurants-Website",
     launch: "NOV / 2024",
     tags: ["Web App", "Restaurant Management"],
-    overview: "Restaurants-Website is a simple restaurant management system...",
+    overview: "Restaurants-Website is a simple restaurant management system that allows users to log in either as customers or restaurant owners. Restaurant owners can add their restaurants to a map with full details, while customers can explore available restaurants visually. The project demonstrates map integration and role-based access.",
     features: [
       "Customer and restaurant owner login",
       "Add restaurants with full details",
@@ -106,7 +106,7 @@ const projectsData = {
     launch: "NOV / 2024",
     tags: ["Web App", "Geography"],
     overview:
-      "World-Map is an interactive web application that displays all countries...",
+      "World-Map is an interactive web application that displays all countries on a global map. When a user clicks on a country, detailed information is shown. The project also includes a login system and focuses on user interaction and data presentation.",
     features: [
       "Interactive world map",
       "Country information display",
@@ -125,7 +125,7 @@ const projectsData = {
     title: "SoundBoardMobile",
     launch: "JUNE / 2024",
     tags: ["Android App", "Entertainment"],
-    overview: "SoundBoardMobile is a fun and lightweight mobile application...",
+    overview: "SoundBoardMobile is a fun and lightweight mobile application that offers multiple soundboards organized into categories. Users can quickly play sounds for entertainment purposes. The app focuses on simplicity and fast interaction.",
     features: [
       "Multiple soundboard categories",
       "Fast sound playback",
@@ -144,7 +144,7 @@ const projectsData = {
     launch: "APR / 2025",
     tags: ["Android App", "Productivity"],
     overview:
-      "TimePlanner is a productivity application designed to help users plan events...",
+      "TimePlanner is a productivity application designed to help users plan one-time or recurring events. While the core functionality was implemented, the project was paused due to unstable notification behavior, making it a valuable learning experience in Android background processes.",
     features: [
       "One-time and recurring event planning",
       "Basic scheduling system",
@@ -162,7 +162,7 @@ const projectsData = {
     title: "Gestion-eleves",
     launch: "APR / 2025",
     tags: ["Desktop App", "Education"],
-    overview: "Gestion-eleves is a simple desktop Java application...",
+    overview: "Gestion-eleves is a simple desktop Java application for managing student records. It allows users to add, remove, and modify student information. The project focuses on core logic and data handling without unnecessary complexity.",
     features: [
       "Add, remove, and edit students",
       "Simple desktop interface",
@@ -180,7 +180,7 @@ const projectsData = {
     title: "TradingForAhmed",
     launch: "JUNE / 2025",
     tags: ["Android App", "Finance"],
-    overview: "TradingForAhmed is a personalized trading application...",
+    overview: "TradingForAhmed is a personalized trading application built for a friend interested in learning trading. The app tracks stocks and currencies in real time using a freemium API and provides basic market analysis features.",
     features: [
       "Real-time stock and currency tracking",
       "Freemium market data API integration",
@@ -199,7 +199,7 @@ const projectsData = {
     launch: "OCT / 2025",
     tags: ["Android App", "Books", "AI"],
     overview:
-      "BooksReader helps users organize large collections of PDF books...",
+      "BooksReader is one of my favorite projects. It helps users organize large collections of PDF books by automatically extracting metadata and covers. Users can import books locally or from supported websites. The app also includes AI-powered text-to-speech and translation features using Python integration through Chaquopy.",
     features: [
       "PDF book import and organization",
       "Automatic metadata and cover extraction",
@@ -219,7 +219,7 @@ const projectsData = {
     title: "Ma7leek",
     launch: "NOV / 2025",
     tags: ["E-commerce", "Clothing Brand"],
-    overview: "Ma7leek is a fully functional e-commerce clothing platform...",
+    overview: "Ma7leek is a fully functional e-commerce clothing platform designed to deliver a smooth and rewarding shopping experience. It features user accounts, a loyalty and reward system, product customization through an integrated designer, and dynamic discount logic. The platform combines elegant design with a scalable backend architecture.",
     features: [
       "User account management",
       "Loyalty and reward points system",
