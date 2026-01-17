@@ -21,11 +21,11 @@ const projectsData = {
   },
 
   2: {
-    title: "NuHub",
+    title: "NurHub",
     launch: "DEC / 2023",
     tags: ["Android App", "Islamic App"],
     overview:
-      "NuHub is an Islamic mobile application created to support Muslims in their daily religious practices. The app provides prayer times using free APIs, step-by-step guidance on how to pray, and access to the Quran and Hadith both online and offline. It also includes Tafsir, a Tasbih counter, and a Hijri calendar, all built with a focus on accessibility and usability.",
+      "NurHub is an Islamic mobile application created to support Muslims in their daily religious practices. The app provides prayer times using free APIs, step-by-step guidance on how to pray, and access to the Quran and Hadith both online and offline. It also includes Tafsir, a Tasbih counter, and a Hijri calendar, all built with a focus on accessibility and usability.",
     features: [
       "Accurate prayer times using free APIs",
       "Offline Quran and Hadith access",
