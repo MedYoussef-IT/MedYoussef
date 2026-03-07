@@ -237,6 +237,25 @@ const projectsData = {
   },
 
   13: {
+  title: "E-commerce Chiffre d'Affaires",
+  tags: ["E-commerce", "React", "Node.js"],
+  overview:
+    "A personal business dashboard built for Tunisian WooCommerce sellers. Pulls live orders, calculates real profit after shipping, product costs, ad spend and fiscal charges, creates AFEX shipments without leaving the screen, and prints RTL-ready invoices with product photos. Credentials never touch the browser — a Node/Express proxy handles all API calls server-side.",
+  features: [
+    "Live P&L with full cost breakdown (COGS, ads, fiscal, cancelled orders)",
+    "Tunisian fiscal declaration — auto-calculates 3%, 7% and timbre by week",
+    "AFEX shipment creation directly from orders — no CORS issues",
+    "Batch invoice printing with Arabic RTL support and product images",
+    "Meta Ads import with automatic 20% digital VAT calculation",
+    "PIN-protected dashboard with secure backend credential storage",
+  ],
+  technologies: ["React", "Node.js", "Express", "WooCommerce REST API", "AFEX API", "Meta Ads API"],
+  liveLink: "",
+  liveEnabled: false,
+  githubLink: "https://github.com/MedYoussef-IT/E-commerce-Management-System",
+  secondaryEnabled: false,
+},
+  14: {
     title: "Next Project Coming Soon",
     tags: ["Stay Tuned"],
     overview:
@@ -252,34 +271,36 @@ const projectsData = {
 
 const projectsGrid = document.getElementById("projectsGrid");
 
-Object.keys(projectsData).forEach((key) => {
-  const project = projectsData[key];
+Object.keys(projectsData)
+  .sort((a, b) => Number(b) - Number(a)) 
+  .forEach((key) => {
+    const project = projectsData[key];
 
-  const card = document.createElement("div");
-  card.className = "project-card";
-  card.setAttribute("data-project", key);
+    const card = document.createElement("div");
+    card.className = "project-card";
+    card.setAttribute("data-project", key);
 
-  card.innerHTML = `
-    <div class="project-image">
-      ${project.launch ? `<span class="project-date">${project.launch}</span>` : ""}
-      
-      ${
-        project.image
-          ? `<img src="${project.image}" alt="${project.title}" onerror="this.style.display='none'">`
-          : `<span style="font-size:3rem;">🚀</span>`
-      }
-    </div>
+    card.innerHTML = `
+      <div class="project-image">
+        ${project.launch ? `<span class="project-date">${project.launch}</span>` : ""}
+        
+        ${
+          project.image
+            ? `<img src="${project.image}" alt="${project.title}" onerror="this.style.display='none'">`
+            : `<span style="font-size:3rem;">🚀</span>`
+        }
+      </div>
 
-    <div class="project-content">
-      <h3 class="project-title">${project.title}</h3>
-      <p class="project-desc">
-        ${project.overview.slice(0, 140)}${project.overview.length > 140 ? "..." : ""}
-      </p>
-    </div>
-  `;
+      <div class="project-content">
+        <h3 class="project-title">${project.title}</h3>
+        <p class="project-desc">
+          ${project.overview.slice(0, 140)}${project.overview.length > 140 ? "..." : ""}
+        </p>
+      </div>
+    `;
 
-  projectsGrid.appendChild(card);
-});
+    projectsGrid.appendChild(card);
+  });
 
 function openModal(projectId) {
   const project = projectsData[projectId];
