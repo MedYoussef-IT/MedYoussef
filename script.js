@@ -254,6 +254,7 @@ const projectsData = {
   liveEnabled: false,
   githubLink: "https://github.com/MedYoussef-IT/E-commerce-Management-System",
   secondaryEnabled: false,
+  image: "projects/eCommerce-logo.jpg"
 },
   14: {
     title: "Next Project Coming Soon",
