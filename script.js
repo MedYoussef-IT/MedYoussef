@@ -314,12 +314,23 @@ function openModal(projectId) {
 
   document.getElementById("modalOverview").textContent = project.overview;
 
-  project.liveEnabled
-    ? (document.getElementById("modalLiveLink").href = project.liveLink)
-    : (document.getElementById("modalLiveLink").style.display = "none");
-  project.secondaryEnabled
-    ? (document.getElementById("modalGithubLink").href = project.githubLink)
-    : (document.getElementById("modalGithubLink").style.display = "none");
+  const liveBtn = document.getElementById("modalLiveLink");
+  const githubBtn = document.getElementById("modalGithubLink");
+
+  liveBtn.style.display = "inline-block";
+  githubBtn.style.display = "inline-block";
+  
+  if (project.liveEnabled) {
+    liveBtn.href = project.liveLink;
+  } else {
+    liveBtn.style.display = "none";
+  }
+  
+  if (project.secondaryEnabled) {
+    githubBtn.href = project.githubLink;
+  } else {
+    githubBtn.style.display = "none";
+  }
 
   document.getElementById("modalTags").innerHTML = project.tags
     .map((tag) => `<span class="modal-tag">${tag}</span>`)
@@ -341,12 +352,12 @@ function closeModal() {
   document.body.style.overflow = "auto";
 }
 
-document.querySelectorAll(".project-card").forEach((card) => {
-  card.addEventListener("click", function (e) {
-    e.preventDefault();
-    const projectId = this.getAttribute("data-project");
-    openModal(projectId);
-  });
+projectsGrid.addEventListener("click", function (e) {
+  const card = e.target.closest(".project-card");
+  if (!card) return;
+
+  const projectId = card.getAttribute("data-project");
+  openModal(projectId);
 });
 
 document.getElementById("projectModal").addEventListener("click", function (e) {
