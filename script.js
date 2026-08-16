@@ -206,7 +206,7 @@ const projectsData = {
   liveEnabled: true,
   githubLink: "",
   secondaryEnabled: false,
-  image: "projects/mizania-tn.png"
+  image: "projects/mizania-tn.jpg"
 },
   15: {
     title: "World-Map ATLAS (UPDATED 2026)",
@@ -225,7 +225,7 @@ const projectsData = {
     liveEnabled: true,
     githubLink: "",
     secondaryEnabled: false,
-    image: "projects/atlas.png",
+    image: "projects/atlas.jpg",
   },
   16: {
     title: "Next Project Coming Soon",
