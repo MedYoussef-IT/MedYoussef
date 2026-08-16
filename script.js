@@ -63,43 +63,6 @@ const projectsData = {
     image: "projects/ps.png",
   },
 
-  4: {
-    title: "Agenda-employees",
-    launch: "AUG / 2024",
-    tags: ["Web App", "Management System"],
-    overview: "Agenda-employees is a complete employee management system that allows administrators to organize employee schedules, manage personal information, and update records easily. The project focuses on CRUD operations and practical real-world management needs using a simple and effective web interface.",
-    features: [
-      "Employee agenda management",
-      "Add, remove, and update employee information",
-      "Structured backend logic",
-      "User-friendly dashboard",
-    ],
-    technologies: ["HTML", "CSS", "JavaScript", "PHP"],
-    liveLink: "",
-    liveEnabled: false,
-    githubLink: "https://github.com/MedYoussef-IT/Agenda-employees",
-    secondaryEnabled: true,
-    image: "",
-  },
-
-  5: {
-    title: "Restaurants-Website",
-    launch: "NOV / 2024",
-    tags: ["Web App", "Restaurant Management"],
-    overview: "Restaurants-Website is a simple restaurant management system that allows users to log in either as customers or restaurant owners. Restaurant owners can add their restaurants to a map with full details, while customers can explore available restaurants visually. The project demonstrates map integration and role-based access.",
-    features: [
-      "Customer and restaurant owner login",
-      "Add restaurants with full details",
-      "Map-based restaurant display",
-      "Basic management system features",
-    ],
-    technologies: ["HTML", "CSS", "JavaScript", "PHP"],
-    liveLink: "",
-    liveEnabled: false,
-    githubLink: "https://github.com/MedYoussef-IT/Restaurants-Website",
-    secondaryEnabled: true,
-    image: "",
-  },
 
   6: {
     title: "World-Map",
@@ -114,8 +77,8 @@ const projectsData = {
       "Clean UI and smooth interactions",
     ],
     technologies: ["HTML", "CSS", "JavaScript"],
-    liveLink: "",
-    liveEnabled: false,
+    liveLink: "https://worldmap.freedev.app",
+    liveEnabled: true,
     githubLink: "https://github.com/MedYoussef-IT/World-Map/",
     secondaryEnabled: true,
     image: "",
@@ -257,6 +220,30 @@ const projectsData = {
   image: "projects/ecommerce.png"
 },
   14: {
+  title: "Mizania TN",
+  tags: ["E-commerce", "Business Management", "Finance"],
+  overview:
+    "A modern business management dashboard for Tunisian e-commerce sellers. Users can manage projects, suppliers, products, stock, expenses, clients and customer orders from one secure workspace. The platform calculates sales and profit, automatically updates stock, creates or updates client records, and generates invoices automatically when an order is created.",
+  features: [
+    "Dashboard with expenses, VAT, invoices, stock alerts and visual statistics",
+    "Supplier, merchandise, expenses and project management with ownership validation",
+    "Secure PHP/MySQL API with authenticated user sessions and server-side validation",
+  ],
+  technologies: [
+    "React",
+    "Vite",
+    "PHP",
+    "MySQL",
+    "REST API",
+    "JWT Authentication",
+  ],
+  liveLink: "https://mizaniatn.freedev.app",
+  liveEnabled: true,
+  githubLink: "https://github.com/MedYoussef-IT/E-commerce-Management-System",
+  secondaryEnabled: true,
+  image: "projects/ecommerce.png"
+},
+  15: {
     title: "Next Project Coming Soon",
     tags: ["Stay Tuned"],
     overview:
