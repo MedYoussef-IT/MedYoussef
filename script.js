@@ -65,7 +65,7 @@ const projectsData = {
 
 
   6: {
-    title: "World-Map (UPDATED 2026)",
+    title: "World-Map ATLAS (UPDATED 2026)",
     launch: "NOV / 2024",
     tags: ["Web App", "Geography"],
     overview:
