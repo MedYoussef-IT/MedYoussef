@@ -221,7 +221,7 @@ const projectsData = {
       "Clean UI and smooth interactions",
     ],
     technologies: ["HTML", "CSS", "JavaScript"],
-    liveLink: "https://atlas.freedev.app",
+    liveLink: "https://atlastn.freedev.app",
     liveEnabled: true,
     githubLink: "",
     secondaryEnabled: false,
