@@ -64,25 +64,7 @@ const projectsData = {
   },
 
 
-  6: {
-    title: "World-Map ATLAS (UPDATED 2026)",
-    launch: "NOV / 2024",
-    tags: ["Web App", "Geography"],
-    overview:
-      "World-Map is an interactive web application that displays all countries on a global map. When a user clicks on a country, detailed information is shown. The project also includes a login system and focuses on user interaction and data presentation.",
-    features: [
-      "Interactive world map",
-      "Country information display",
-      "Login system implementation",
-      "Clean UI and smooth interactions",
-    ],
-    technologies: ["HTML", "CSS", "JavaScript"],
-    liveLink: "https://worldmap.freedev.app",
-    liveEnabled: true,
-    githubLink: "",
-    secondaryEnabled: false,
-    image: "",
-  },
+  
 
   7: {
     title: "SoundBoardMobile",
@@ -227,6 +209,25 @@ const projectsData = {
   image: "projects/ecommerce.png"
 },
   15: {
+    title: "World-Map ATLAS (UPDATED 2026)",
+    launch: "NOV / 2024",
+    tags: ["Web App", "Geography"],
+    overview:
+      "World-Map is an interactive web application that displays all countries on a global map. When a user clicks on a country, detailed information is shown. The project also includes a login system and focuses on user interaction and data presentation.",
+    features: [
+      "Interactive world map",
+      "Country information display",
+      "Login system implementation",
+      "Clean UI and smooth interactions",
+    ],
+    technologies: ["HTML", "CSS", "JavaScript"],
+    liveLink: "https://atlas.freedev.app",
+    liveEnabled: true,
+    githubLink: "",
+    secondaryEnabled: false,
+    image: "",
+  },
+  16: {
     title: "Next Project Coming Soon",
     tags: ["Stay Tuned"],
     overview:
