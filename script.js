@@ -65,7 +65,7 @@ const projectsData = {
 
 
   6: {
-    title: "World-Map",
+    title: "World-Map (UPDATED 2026)",
     launch: "NOV / 2024",
     tags: ["Web App", "Geography"],
     overview:
@@ -79,8 +79,8 @@ const projectsData = {
     technologies: ["HTML", "CSS", "JavaScript"],
     liveLink: "https://worldmap.freedev.app",
     liveEnabled: true,
-    githubLink: "https://github.com/MedYoussef-IT/World-Map/",
-    secondaryEnabled: true,
+    githubLink: "",
+    secondaryEnabled: false,
     image: "",
   },
 
@@ -121,23 +121,6 @@ const projectsData = {
     image: "projects/time.png",
   },
 
-  9: {
-    title: "Gestion-eleves",
-    launch: "APR / 2025",
-    tags: ["Desktop App", "Education"],
-    overview: "Gestion-eleves is a simple desktop Java application for managing student records. It allows users to add, remove, and modify student information. The project focuses on core logic and data handling without unnecessary complexity.",
-    features: [
-      "Add, remove, and edit students",
-      "Simple desktop interface",
-      "Efficient data handling",
-    ],
-    technologies: ["Java"],
-    liveLink: "",
-    liveEnabled: false,
-    githubLink: "https://github.com/MedYoussef-IT/Gestion-eleves/",
-    secondaryEnabled: true,
-    image: "",
-  },
 
   10: {
     title: "TradingForAhmed",
@@ -239,8 +222,8 @@ const projectsData = {
   ],
   liveLink: "https://mizaniatn.freedev.app",
   liveEnabled: true,
-  githubLink: "https://github.com/MedYoussef-IT/E-commerce-Management-System",
-  secondaryEnabled: true,
+  githubLink: "",
+  secondaryEnabled: false,
   image: "projects/ecommerce.png"
 },
   15: {
